@@ -135,7 +135,7 @@ figcaption
   grid-template-rows: repeat(2, 1fr);
   width: 100%; /* Ajuste a largura conforme necessário */
   height: 100%;
-  gap: 4rem;
+  gap: rem;
 }
 ul  {
   
@@ -426,12 +426,9 @@ select:disabled {
   display: none !important;
 }
 
-button,
-[type=button],
-[type=reset],
-[type=submit] {
-  -webkit-appearance: button;
-}
+
+
+
 button:not(:disabled),
 [type=button]:not(:disabled),
 [type=reset]:not(:disabled),
@@ -488,7 +485,7 @@ legend + * {
 
 [type=search] {
   outline-offset: -2px;
-  -webkit-appearance: textfield;
+ 
 }
 
 /* rtl:raw:
@@ -509,7 +506,7 @@ legend + * {
 
 ::file-selector-button {
   font: inherit;
-  -webkit-appearance: button;
+ 
 }
 
 output {
